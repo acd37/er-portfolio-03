@@ -17,7 +17,10 @@ h2 {
 
 h3 {
     font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
     letter-spacing: 1px;
+    text-align: center;
+    color: #0e5eab;
 }
 
 h5 {
@@ -35,6 +38,15 @@ h5 {
 .btn-primary:focus {
     background-color: #f39d9b !important;
     border-color: #f39d9b !important;
+}
+
+.title-underline{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #fff, #0e5eab, #fff);
+    max-width: 350px;
+    margin-bottom: 50px;
 }
 
 .fragment {
@@ -93,10 +105,6 @@ h5 {
     color: #0e5eab;
 }
 
-.fragment-three h3 {
-    text-align: center;
-}
-
 .fragment-three .carousel {
     max-width: 800px;
 }
@@ -116,32 +124,13 @@ h5 {
     background-color: #f84a12 !important;
 }
 
-.fragment-three .title-underline{
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #fff, #0e5eab, #fff);
-    max-width: 350px;
-    margin-bottom: 50px;
-}
-
 .fragment-four {
     background-color: #fae8e3;
     color: #0e5eab;
 }
-.fragment-four h3 {
-    text-align: center;
-}
+
 .fragment-four i {
     color: #f84a12;
-}
-.fragment-four .title-underline{
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #fff, #0e5eab, #fff);
-    max-width: 350px;
-    margin-bottom: 50px;
 }
 
 .fragment-four .labels {
@@ -168,6 +157,21 @@ h5 {
 .fragment-five {
     background-color: #fee4c6;
     padding: 50px;
+    color: #f84a12;
+    text-align: center; 
+}
+
+
+.fragment-five h5 {
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+
+.fragment-five .credential {
+    color: #999;
+    margin-bottom: 50px;
+    font-weight: 300;
 }
 
 .fragment-six {
